@@ -198,6 +198,18 @@ function obtenerAreaRectangulo(alto, ancho) {
      return ( alto * ancho );
 }
 
+function numeroRandom() {
+  //Generar un número al azar entre 0 y 1 y devolverlo
+  //Pista: investigá qué hace el método Math.random()
+}
+
+function esPositivo(numero) {
+  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
+  //Si el número es positivo, devolver ---> "Es positivo"
+  //Si el número es negativo, devolver ---> "Es negativo"
+  //Si el número es 0, devuelve false
+}
+
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
