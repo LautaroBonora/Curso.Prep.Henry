@@ -18,7 +18,7 @@
     El segundo operador lo denominamos como "Ó" u "OR" en inglés; lo representamos con dos barras verticales
      `||`, y a diferencia del "&&", sólo necesitamos que una de las expresiones sea verdadera o "True" para que nos devuelva un "True" y de esta forma se ejecute el código, como por ejemplo: 3 > 1 || 2 < 2 // TRUE
 
-    El tercero y último operador se nombra "NOT" en inglés o "NO"; se lo escribe sencillamente con un `!`, y lo que hace es volver opuesto el resultado que se obtiene en un expresión.                                 Como ejemplo decimos que if (!(2 > 1)) // FALSE ya que la expresión es Verdadera, y como el "!" nos devuelve el valor contrario, el código no se ejecutarás.-
+    El tercero y último operador se nombra "NOT" en inglés o "NO"; se lo escribe sencillamente con un `!`, y lo que hace es volver opuesto el resultado que se obtiene en un expresión.                                 Como ejemplo decimos que if (!(2 > 1)) // FALSE ya que la expresión es Verdadera, y como el "!" nos devuelve el valor contrario, el código no se ejecutará.-
 
     Para entender lo que es un BUCLE lo comparamos con una rueda de ratón: El sistema "rueda ratón" representa el `for`, que va repetirse, es decir, a ejecutarse las veces que sean necesarias hasta que lleguemos a lo que necesitamos (a una recompensa como un pedazo de queso), o que nuestro "ratón" se detenga por algo que "encontró" en su camino.
     Esta "rueda" o bucle 'for' tiene tres partes entre () que deben estar si o si:
