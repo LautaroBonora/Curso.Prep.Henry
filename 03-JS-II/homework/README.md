@@ -20,8 +20,10 @@
 
     El tercero y último operador se nombra "NOT" en inglés o "NO"; se lo escribe sencillamente con un `!`, y lo que hace es volver opuesto el resultado que se obtiene en un expresión.                                 Como ejemplo decimos que if (!(2 > 1)) // FALSE ya que la expresión es Verdadera, y como el "!" nos devuelve el valor contrario, el código no se ejecutarás.-
 
-    Para entender lo que es un BUCLE lo comparamos con una rueda de ratón: El "ratón" en este caso sería el `for`, que va repetirse, es decir, a ejecutarse, las veces que sean necesarias hasta que lleguemos a lo que necesitamos (a una recompensa como un pedazo de queso), o que nuestro "ratón" se detenga por algo que "encontró" en su camino.
+    Para entender lo que es un BUCLE lo comparamos con una rueda de ratón: El sistema "rueda ratón" representa el `for`, que va repetirse, es decir, a ejecutarse las veces que sean necesarias hasta que lleguemos a lo que necesitamos (a una recompensa como un pedazo de queso), o que nuestro "ratón" se detenga por algo que "encontró" en su camino.
     Esta "rueda" o bucle 'for' tiene tres partes entre () que deben estar si o si:
-        Primero establecemos desde donde partirá nuestro "ratón", si desde el valor 0, 50, o 100;
-        después le indicamos hasta cuando "deje de dar vueltas", es decir, una condición;
-        por último, señalamos la "velocidad" en que nuestro "ratón" va girar en todo su recorrido, es decir, el tiempo que va demorar en dar una vuelta.-
+        Primero establecemos a partir de que vuelta parte nuestro "ratón", si desde la vuelta 0, 50, o 100;
+        después le indicamos cuantas "vueltas" debe dar la rueda hasta pararse, es decir, indicamos una condición de salida;
+        por último, señalamos a que "velocidad" correra el "ratón", es decir, las vueltas que da por segundo. Ejemplo:
+
+        for (desde que vuelta parte el ratón; a que nro. de vueltas debe llegar; velocidad del ratón)
